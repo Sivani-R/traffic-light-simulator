@@ -1,0 +1,55 @@
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    width: 10vw;
+    height: 50vh;
+    border-radius: 40px;
+  }
+  
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .light.active {
+    background-color: inherit;
+  }
+  
+  .light.green.active {
+    background-color: green;
+  }
+  
+  .light.yellow.active {
+    background-color: yellow;
+  }
+  
+  .light.red.active {
+    background-color: red;
+  }
+  
+  .pedestrian-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pedestrian-button:hover {
+    background-color: #0056b3;
+  }
+  

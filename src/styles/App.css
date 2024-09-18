@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url('https://img.freepik.com/free-photo/blue-view-empty-weather-long-landscape_1417-944.jpg?t=st=1726592984~exp=1726596584~hmac=48a3ec4d34ce3dc8b890adc1b73fd6001a579ff94c1acd63a580f1896d51e070&w=1060');
+  background-size: cover;
+  
+}
